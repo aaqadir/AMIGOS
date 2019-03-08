@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_yourroom"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Your Rooms" />
+        <item
+            android:id="@+id/nav_crtroom"
+            android:icon="@drawable/ic_group_add_black_24dp"
+            android:title="Create Room" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Rate us" />
+    </group>
+
+</menu>
